@@ -1,3 +1,5 @@
+#ifndef _MEMORY_DEMO_H_
+#define _MEMORY_DEMO_H_
 #include <new>
 class MemoryDemo
 {
@@ -27,3 +29,6 @@ public:
 	MemorySubClass();
 	virtual ~MemorySubClass();
 };
+
+
+#endif
